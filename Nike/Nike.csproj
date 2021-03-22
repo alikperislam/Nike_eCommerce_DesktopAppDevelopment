@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{734EDAD8-2FB4-463C-83B2-CC843A16A411}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Nike</RootNamespace>
+    <AssemblyName>Nike</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Bnfu_1.5.3_crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formadversay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formadversay.Designer.cs">
+      <DependentUpon>formadversay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formair1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formair1.Designer.cs">
+      <DependentUpon>formair1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formair107.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formair107.Designer.cs">
+      <DependentUpon>formair107.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formcharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formcharge.Designer.cs">
+      <DependentUpon>formcharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDunkLow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDunkLow.Designer.cs">
+      <DependentUpon>formDunkLow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formjordanair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formjordanair.Designer.cs">
+      <DependentUpon>formjordanair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formJordanJumpman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formJordanJumpman.Designer.cs">
+      <DependentUpon>formJordanJumpman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formJordanMax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formJordanMax.Designer.cs">
+      <DependentUpon>formJordanMax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMLOGİN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMLOGİN.Designer.cs">
+      <DependentUpon>FORMLOGİN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formmetcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formmetcon.Designer.cs">
+      <DependentUpon>formmetcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPhantom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPhantom.Designer.cs">
+      <DependentUpon>formPhantom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMercurielVapor13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMercurielVapor13.Designer.cs">
+      <DependentUpon>formMercurielVapor13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formNeymar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formNeymar.Designer.cs">
+      <DependentUpon>formNeymar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsalon2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsalon2.Designer.cs">
+      <DependentUpon>formsalon2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formsatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formsatis.Designer.cs">
+      <DependentUpon>formsatis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formVisible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formVisible.Designer.cs">
+      <DependentUpon>formVisible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formWeb.Designer.cs">
+      <DependentUpon>formWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formzoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formzoom.Designer.cs">
+      <DependentUpon>formzoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formadversay.resx">
+      <DependentUpon>formadversay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formair1.resx">
+      <DependentUpon>formair1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formair107.resx">
+      <DependentUpon>formair107.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formcharge.resx">
+      <DependentUpon>formcharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDunkLow.resx">
+      <DependentUpon>formDunkLow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formjordanair.resx">
+      <DependentUpon>formjordanair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formJordanJumpman.resx">
+      <DependentUpon>formJordanJumpman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formJordanMax.resx">
+      <DependentUpon>formJordanMax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMLOGİN.resx">
+      <DependentUpon>FORMLOGİN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMercurielVapor13.resx">
+      <DependentUpon>formMercurielVapor13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formmetcon.resx">
+      <DependentUpon>formmetcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formNeymar.resx">
+      <DependentUpon>formNeymar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPhantom.resx">
+      <DependentUpon>formPhantom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsalon2.resx">
+      <DependentUpon>formsalon2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formsatis.resx">
+      <DependentUpon>formsatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formVisible.resx">
+      <DependentUpon>formVisible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formWeb.resx">
+      <DependentUpon>formWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formzoom.resx">
+      <DependentUpon>formzoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
